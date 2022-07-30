@@ -1,8 +1,8 @@
 import React from 'react'
-import { apiUrlUser } from '../../common/constants'
+import { apiUrlUser } from '../../../common/constants'
 import { Image, Form, Button } from 'react-bootstrap'
 import { useState } from 'react'
-import { addPostAction } from '../../behaviors/actions/post'
+import { addPostAction } from '../../../behaviors/actions/post'
 import {useDispatch} from 'react-redux'
 
 const AddPost = ({user, handleClick}) => {

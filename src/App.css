@@ -139,3 +139,15 @@ label {
   left: 30vw;
   border-radius: 30px;
 }
+
+.post-form{
+  background-color: burlywood;
+  width: 30%;
+  border-radius: 15px;
+  height: 40rem;
+}
+
+.content-form{
+  font-family: 'Helvetica';
+  white-space: pre-wrap;
+}

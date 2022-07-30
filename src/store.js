@@ -10,7 +10,8 @@ import {
 } from './behaviors/reducers/user'
 
 import {
-    addPostReducer
+    addPostReducer,
+    getAllPostsReducer
 } from './behaviors/reducers/post'
 
 const store = configureStore({
@@ -24,7 +25,8 @@ const store = configureStore({
         getUserByIdReducer,
 
         // post
-        addPostReducer
+        addPostReducer,
+        getAllPostsReducer
     }
 })
 
